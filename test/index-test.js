@@ -33,7 +33,7 @@ describe('Selectors', () => {
     })
 
     it('does not alert if another key is pressed', () => {
-      window.alert = expect.createSpy()
+    //  window.alert = expect.createSpy()
 
       //window.pressIt();
 
