@@ -27,7 +27,7 @@ $(document).ready(function(){
 // call functions here
 $("form").on('keydown', function(key) {
   if ($( "input:first" ).val() === "G") {
-    alert('your form is going to be submitted now');
+    alert('G was pressed');
     
 }
 });
