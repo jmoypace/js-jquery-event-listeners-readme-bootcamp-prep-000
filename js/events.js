@@ -6,3 +6,10 @@ $(document).ready(function(){
 
 });
 }
+ function frameIt(){
+$(document).ready(function(){
+
+// call functions here
+
+});
+}
