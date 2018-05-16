@@ -16,3 +16,10 @@ $(document).ready(function(){
 
 });
 }
+ function PressIt(){
+$(document).ready(function(){
+
+// call functions here
+
+});
+}
