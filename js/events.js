@@ -28,7 +28,7 @@ $(document).ready(function(){
 $("form").on('keydown', function(key) {
   if ($( "#typing" ).val() === "71") {
     alert('G was pressed');
-    
+    alert('Your form is going to be submitted now.')
 }
 });
 });
