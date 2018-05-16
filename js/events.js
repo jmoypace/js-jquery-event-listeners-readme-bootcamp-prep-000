@@ -24,7 +24,7 @@ $('img').on('load', function(){
  function PressIt(){
 $(document).ready(function(){
 
-$('#typing').on('keydown', function(key) {
+$('#typing').on('keydown', function() {
   if(key.which == 71){
       alert('G was pressed');
   }
