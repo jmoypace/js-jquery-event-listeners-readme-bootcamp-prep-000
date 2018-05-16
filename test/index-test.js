@@ -23,7 +23,7 @@ describe('Selectors', () => {
     it('pressIt() binds an event that alerts the user when the G key was pressed down', function() {
       window.alert = expect.createSpy()
 
-      window.pressIt();
+      //window.pressIt();
 
       const input = window.$('#typing');
       const event = window.$.Event('keydown', { which: 71 })
