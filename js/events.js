@@ -25,7 +25,7 @@ $('img').on('load', function(){
 $(document).ready(function(){
 
 $('#typing').on('keydown', function() {
-  if (key.which === "71") {
+  if ($( "input:first" ).val() === "71") {
     alert('G was pressed');
 }
 });
