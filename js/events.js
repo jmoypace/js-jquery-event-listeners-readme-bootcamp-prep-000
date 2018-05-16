@@ -25,8 +25,13 @@ $('img').on('load', function(){
 $(document).ready(function(){
 
 // call functions here
+$("form").on('keydown', function() {
+  if ($( "input:first" ).val() === "correct") {
+    alert('your form is going to be submitted now');
+    
 
-});
+
+}
 }
  function submitIt(){
 $(document).ready(function(){
