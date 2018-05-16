@@ -35,7 +35,7 @@ describe('Selectors', () => {
     it('does not alert if another key is pressed', () => {
       window.alert = expect.createSpy()
 
-      window.pressIt();
+      //window.pressIt();
 
       const input = window.$('#typing');
       const event = window.$.Event('keydown', { which: 70 })
