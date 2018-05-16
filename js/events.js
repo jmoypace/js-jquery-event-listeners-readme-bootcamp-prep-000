@@ -26,7 +26,7 @@ $(document).ready(function(){
 
 // call functions here
 $("form").on('keydown', function(key) {
-  if ($( "input:first" ).val() === "G") {
+  if ($( "input:first" ).val() === "71") {
     alert('G was pressed');
     
 }
