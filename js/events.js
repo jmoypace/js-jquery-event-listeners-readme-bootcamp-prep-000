@@ -16,7 +16,7 @@ $('img').on('load', function(){
 });
 });
 }
- function PressIt(){
+ function pressIt(){
 $(document).ready(function(){
 $('#typing').on('keydown', function(key) {
   if(key.which == 71){
