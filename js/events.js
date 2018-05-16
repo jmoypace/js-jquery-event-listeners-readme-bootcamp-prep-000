@@ -24,11 +24,9 @@ $('img').on('load', function(){
  function PressIt(){
 $(document).ready(function(){
 
-// call functions here
-$("form").on('keydown', function(key) {
-  if ($( "#typing" ).val() === "71") {
+$("document").on('keydown', function(key) {
+  if (key.which).val() === "71") {
     alert('G was pressed');
-    
 }
 });
 });
