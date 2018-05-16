@@ -16,6 +16,8 @@ $(document).ready(function(){
 //load event that adds the class tasty to the image to add a red frame to the image.
 $('img').on('load', function(){
   //actions you want to happen
+  //img.attr("class")).toEqual("tasty");
+  img.attr("")
 });
 });
 }
