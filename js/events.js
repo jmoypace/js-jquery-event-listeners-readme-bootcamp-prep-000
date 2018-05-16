@@ -13,6 +13,7 @@ $( "p" ).click(function() {
 $(document).ready(function(){
 
 // call functions here
+//load event that adds the class tasty to the image to add a red frame to the image.
 
 });
 }
