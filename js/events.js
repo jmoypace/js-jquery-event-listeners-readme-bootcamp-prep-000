@@ -11,12 +11,7 @@ $( "p" ).click(function() {
 }
  function frameIt(){
 $(document).ready(function(){
-
-// call functions here
-//load event that adds the class tasty to the image to add a red frame to the image.
 $('img').on('load', function(){
-  //actions you want to happen
-  //img.attr("class")).toEqual("tasty");
   $('img').addClass("tasty");
 });
 });
@@ -24,7 +19,7 @@ $('img').on('load', function(){
  function PressIt(){
 $(document).ready(function(){
 
-$('#typing').on('keydown', function() {
+$('#typing').on('keydown', function(key) {
   if(key.which == 71){
       alert('G was pressed');
   }
