@@ -17,7 +17,7 @@ $(document).ready(function(){
 $('img').on('load', function(){
   //actions you want to happen
   //img.attr("class")).toEqual("tasty");
-  var img=img.attr("tasty");
+  var image=img.attr("tasty");
 });
 });
 }
